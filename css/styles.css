@@ -108,3 +108,13 @@ button:hover {
 .close-button:hover {
     color: #000;
 }
+
+.card1 {
+    background-color: #28a745; /* Color verde */
+    color: white;
+    padding: 20px; /* Ajustar el tamaño del padding */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    text-align: center; /* Centrar texto */
+    max-width: 400px; /* Ancho máximo de la tarjeta */
+}
