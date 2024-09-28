@@ -11,9 +11,9 @@
         <div class="form-box">
             <div class="close-button">✖</div>
             <h2>Iniciar sesión</h2>
-            <form action="#" method="post">
-                <input type="email" placeholder="Correo electrónico" required>
-                <input type="password" placeholder="Contraseña" required>
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <input type="password" id="password" placeholder="Contraseña" required>
                 <button type="submit">Iniciar sesión</button>
                 <div class="checkbox-container">
                     <input type="checkbox" id="remember-me">
@@ -21,7 +21,10 @@
                 </div>
                 <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
             </form>
+            <!-- Mensaje de error en caso de credenciales incorrectas -->
+            <p id="error-message" class="text-danger"></p>
         </div>
     </div>
 </body>
+<script src="js/script.js"></script>
 </html>
